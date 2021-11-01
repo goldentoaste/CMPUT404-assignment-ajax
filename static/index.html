@@ -163,7 +163,7 @@
         }
 
         function getAddress() {
-            return "http://" + window.location.host;
+            return window.location.protocol + "://" + window.location.host;
         }
 
         function addEntity(entity, data) {
